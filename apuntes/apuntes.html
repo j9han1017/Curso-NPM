@@ -1,37 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .caja{
+            width: 400px;
+            height: 400px;
+            background-color: aqua;
+            padding: 20px;
+            margin: 20px;
+        }
+    </style>
 </head>
-<body>
+
+<body class="cajas">
+    <div>
     <h1>APUNTES CURSO NPM</h1>
-    <h3>Instalacion de Dependencias</h3>
-<p>
-    <ul>
-<li>npm install moment</li>
+    <div class="caja">
+        
+        <h3>Clase 6 - Instalacion de Dependencias</h3>
+        <p>
+        <ul>
+            <li>npm install moment</li>
 
-<li>npm install eslint --save-dev ---> dependencia que solo va a ser utilizada en el entorno de desarollo</li>
+            <li>npm install eslint --save-dev ---> dependencia que solo va a ser utilizada en el entorno de desarollo
+            </li>
 
-<li>npm install react --save ---> dependencia para ser llevada a produccion.</li>
-</ul>
-</p>
-</h3>
-<h3>Paquetes Globales </h3>
-<p>
-<ul>
-    <li>npm install -g
-Ver lista de los paquetes
-</li>
+            <li>npm install react --save ---> dependencia para ser llevada a produccion.</li>
+        </ul>
+        </p>
+        </h3>
+        <h3>Paquetes Globales </h3>
+        <p>
+        <ul>
+            <li>npm install -g
+                Ver lista de los paquetes
+            </li>
 
-<li>npm list
-Ver lista de paquetes globlales
-</li>
+            <li>npm list
+                Ver lista de paquetes globlales
+            </li>
 
-<li>npm list -g
-</li>
-</ul>
-</p>
+            <li>npm list -g
+            </li>
+        </ul>
+        </p>
+        <div class="caja">
+            <h3>Clase 7 - Instalación de dependencias de versiones especificas</h3>
+            <p>
+                <ul>
+                    <li>npm install eslint -o  --> Validar que una dependencia no tenga conflicto</li>
+                    <li>npm install react-dom --dry-run  --> Instalacion de una version particular</li>
+                    <li>npm install json-server@0.15.0 --> Instalacion de la version mas reciente</li>
+                    <li>npm list</li>
+                    <li>npm install</li>
+                
+                </ul>
+            </p>
+        </div>
+    </div>
+</div>
 </body>
+
 </html>
